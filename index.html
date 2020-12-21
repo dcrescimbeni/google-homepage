@@ -1,9 +1,77 @@
+<style>
+	.top-navbar-div {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		float: right;
+	}
+
+	.top-navbar-ul {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		float: right;
+	}
+
+	.navbar-list {
+		padding: 20px;
+		float: left;
+		font-family: Arial, Helvetica, sans-serif;
+		color: black;
+	}
+
+	.logo-img {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		padding: 50px;
+	}
+
+	.body-div-content {
+		display: block;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	input[type=text] {
+		height: 35px;
+		width: 500px;
+		margin-bottom: 15px;
+		border-radius: 25px;
+		border-width: 1px;
+	}
+
+	input[type=button] {
+		background-color: rgba(183, 195, 209, 0.301);
+		border-width: 0px;
+		padding: 10px;
+		margin: 10px;
+		border-radius: 5px;
+	}
+
+</style>
+
 <html>
 	<header>
-		Title
-
+		<div class="top-navbar-div">
+			<ul class="top-navbar-ul">
+				<li class="navbar-list"><a href="www.gmail.com">Gmail</a></li>
+				<li class="navbar-list"><a href="www.google.com/imghp">Imágenes</a></li>
+			</ul>
+		</div>
 	</header>
 	<body>
-		Test
+		<div>
+			<img class="logo-img" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+		</div>
+		<div class="body-div-content">
+			<form>
+				<input type="text">
+				<p></p>
+				<input type="button" value="Buscar con Google">
+				<input type="button" value="Me siento con suerte">
+			</form>
+		</div>
 	</body>
 </html>
